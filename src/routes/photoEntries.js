@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/PhotoEntry');
+const controller = require('../controllers/photoEntry');
 const multer = require('multer');
 const { storage } = require('../utils/cloudinary');
 const upload = multer({ storage });
